@@ -1,0 +1,267 @@
+body{
+	overflow-x:hidden;
+}
+/* General Classes*/
+.EntryRow{
+	margin-bottom: 25px;
+	padding: 10px 5px;
+}
+.NarrowMarginEntryRow{
+	margin-bottom: 5px;
+}
+.RowOdd{
+	
+}
+.RowEven{
+	
+}
+.EntryTitle{
+	font-size: 18px;
+	margin: 0px;
+	height: 60px;
+    overflow: hidden;
+}
+.EntryExtraInfo{
+	
+}
+.EntryDescription{
+	
+}
+.EntryImageContainer{
+	text-align: center;
+}
+
+.MoreButton{
+	display: inline-block;
+	padding: 5px 10px;
+	margin-left: 5px;
+}
+.EntryIcon{
+	font-size: 26px;
+}
+/* Categories*/
+.CategoryTree{
+	list-style: none;
+	padding-left: 5px;
+	border-left: 1px dotted #ffffff;
+}
+.CategoryTree li a{
+	display:block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Links*/
+
+.LinkHolder{
+	direction: ltr;
+}
+
+/* Testimonials*/
+
+
+/* Calendar*/
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	font-weight: normal;
+}
+
+/* QuickSand */
+
+li.EntryItem {
+    float: right;
+    margin: 0 12px 20px 0;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    width: 240px;
+}
+
+.QuickSandImage img {
+	border-radius: 4px 4px 4px 4px;
+	padding: 10px;
+}
+
+/* Products */
+.ProductArea{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.ProductImage{
+	min-height: 140px;
+	padding: 3px;
+}
+.ProductImage a{
+	display:block;
+	min-height:145px;
+}
+.ProductImage .DetailsBtn1{
+	min-height:0;
+}
+.ProductImage div{
+	min-height: 154px !important;
+	line-height: 154px;
+	vertical-align: middle;
+}
+.ShadowDiv{
+	text-align: center;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.ShadowDiv img{
+	vertical-align: top !important;
+}
+
+.DetailsBtn1{
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.DetailsBtn1 span{
+	display: block;
+}
+.PopUpTitle{
+	position:relative;
+	padding: 0px;
+	overflow: hidden;
+	min-height: 140px;
+}
+.PopUpTitle h1 {
+	position: absolute;
+	top: 160px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	left:0;
+	right:0;
+}
+.PopUpTitle h1 a{
+	display: block;
+	overflow: hidden;
+	padding: 5px;
+}
+
+/* Downloads*/
+.FileInfo{
+	padding-top: 10px;
+	direction: ltr;
+	font-size: 16px;
+}
+.FileDownload a{
+	display: inline-block;
+	padding: 10px;
+	width: 50%;
+	margin-top: 10px;
+}
+.FileDownload a i{
+	font-size: 18px;
+}
+
+/* Details Page */
+.PageTitle{
+	font-size: 22px;
+}
+
+.RoundedDiv {
+	border-radius: 5px;
+}
+
+.DetailsImage1 {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.DetailsImage2 {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.DetailsImage3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.DetailsImage4 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+
+.HrBorder{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+#recaptcha_widget_div{
+	direction: ltr;
+}
+#frmCareer a{
+	text-decoration: underline !important;
+}
+
+.fb-comments, .fb-comments * {
+    width:100% !important;
+}
+/* Search*/
+.SearchContent{
+	padding: 10px 0px 10px 0;
+}
+.SearchContent form{
+	margin: 0;
+}
+.SearchContent .SeachKeyword{
+	height: 18px;
+	margin: 0px;
+}
+.SearchContent .SeachKeyword:focus{
+border-color: rgba(82, 82, 82, 0.4);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(70, 70, 70, 0.2);
+}
+.SearchContent .SearchBtn{
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 768px) {
+	.navbar-inverse .navbar-inner{
+		display: block;
+	}
+	.NavContainer {
+		height: auto !important;	
+	}
+	.navbar .nav{
+		float: none;
+		margin: 10px !important;
+	}
+	.navbar .nav > li	{
+		height:auto;
+		line-height:normal;
+		display: block;
+		text-align: center;
+		float: none;
+	}
+	.navbar .nav > li >a	{
+		display: inline-block;
+		text-align: center;
+		border:none !important;
+		padding: 9px 15px !important;
+	}
+	.navbar-inverse .brand, .navbar-inverse .nav > li:first-child > a{
+		padding: 9px 15px !important;
+	}
+	.CategoryTree{
+		border: none !important;
+	}
+	.brand {
+		padding:20px !important;
+		padding-bottom:10px !important;
+	}
+}

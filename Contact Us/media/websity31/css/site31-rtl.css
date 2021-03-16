@@ -1,0 +1,454 @@
+@import url(../../../../fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+/* 
+ * Droid Arabic Naskh (Arabic) http://www.google.com/webfonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.eot);
+  src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.woff2) format('woff2'),
+       url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.woff) format('woff'),
+       url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.eot);
+  src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
+       url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.woff2) format('woff2'),
+       url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.woff) format('woff'),
+       url(http://themes.googleusercontent.com/static/fonts/earlyaccess/droidarabicnaskh/v4/DroidNaskh-Bold.ttf) format('truetype');
+}
+
+/* All */
+
+* {
+    
+}
+
+html {
+    
+}
+
+body {
+    font-family: "Droid Arabic Kufi", Tahoma, Geneva, sans-serif;
+    direction: rtl;
+}
+
+input, button, select, textarea{
+	
+}
+h1, h2, h3 {
+	
+}
+
+/* End All */
+
+.SearchContent .SearchBtn {
+    margin-right: -67px;
+}
+
+.PhoneHolder{
+	direction: ltr;
+	display: inline-block;
+}
+.PreHeader2 .nav {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.PreHeader2 .dropdown-menu {
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    float: right;
+	min-width:auto;
+    list-style: none outside none;
+    margin: 0;
+	width:100%;
+    padding: 0px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+}
+.SocialDiv a{
+	margin:2px;
+}
+.LangSwitch{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.LangSwitch li a{
+	display: inline-block;
+	padding: 5px;
+}
+.LanguageSelect{
+	display: inline-block;
+	padding: 3px 20px;
+	padding-left: 5px;
+}
+
+
+.navbar .brand {
+	/*float: left;*/
+	padding: 0px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-inner {
+	background: none;
+	border: none;
+	padding: 0px;
+	box-shadow:none;
+}
+
+.navbar-inverse .brand,.navbar-inverse .nav>li>a {
+	font-size: 14px;
+}
+
+.navbar .btn-navbar {
+	float: right;
+	background-image: none;
+}
+
+.navbar-inverse .nav-collapse .nav>li>a:hover,.navbar-inverse .nav-collapse .nav>li>a:focus,.navbar-inverse .nav-collapse .dropdown-menu a:hover,.navbar-inverse .nav-collapse .dropdown-menu a:focus {
+	box-shadow: none;
+	background: none;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a{
+	text-shadow:none;
+}
+.navbar .nav .dropdown-menu {
+    border-radius: 0 0 0 0;
+}
+.navbar .nav .dropdown-menu li:last-child {
+    border-bottom: none;
+}
+.navbar-inverse .nav li.dropdown .dropdown-menu {
+    text-align: right;
+}
+.navbar-inverse .nav li.dropdown .dropdown-menu a {
+    text-align: right;
+}
+.PostHeader .navbar-inverse .nav li a {
+    text-align: right;
+}
+.navbar .nav > li > .dropdown-menu:before {
+	display: none;
+}
+.navbar .nav > li > .dropdown-menu:after {
+	display: none;
+}
+.PostHeader .navbar-inverse .nav li.dropdown > .dropdown-menu li.dropdown-submenu > a:after {
+    float: left;
+    margin-left: -10px;
+    border-right-color: #333 !important;
+    border-width: 5px 5px 5px 0;
+}
+.PostHeader .navbar-inverse .nav li.dropdown > .dropdown-menu li.dropdown-submenu > .dropdown-menu {
+    right: 180px;
+}
+.PostHeader .navbar-inverse .nav > li {
+    margin-left: -5px;
+}
+.PostHeader .navbar-inverse .nav li.dropdown > a:after {
+    float: left;
+    margin-right: 15px;
+}
+.PostHeader .navbar-inverse .nav li.dropdown .dropdown-menu {
+    border-right: 5px solid #d5d5d4;
+}
+.brand {
+	display: inline-block !important;
+	padding-top: 30px !important;
+	font-size: 26px !important;
+}
+
+.PostHeader {
+	min-height: 25px;
+}
+.BreadCrumbContainer{
+
+}
+.BreadCrumb {
+    float: left;
+    list-style: none outside none;
+    padding: 0 0 0 0;
+}
+.BreadCrumb li {
+	display: inline-block;
+}
+.BreadCrumb li.sep {
+	display: inline-block;
+	margin: 0 10px;
+}
+.TitleHolder{
+
+}
+.PostHeader .PostHeaderContent .row-fluid .PageTitleText {
+    padding: 0 20px 0 0;
+}
+.SubInner {
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 25px;
+    padding: 15px 35px 35px;
+}
+.CategoriesTopContainer{
+	margin-bottom: 30px;
+}
+
+.PillsList li{
+	display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+}
+.PillsList li .Item{
+	padding: 5px 15px;
+	display: inline-block;
+}
+.PillsList li:last-child{
+	margin-left: 0px;
+}
+.SortContainer{
+	
+}
+.Pagination{
+	margin: 10px 0px;
+	text-align: center;
+}
+.Pagination .Item{
+	display: inline-block;
+	padding: 5px 10px;
+	margin-left:10px;
+}
+
+/* General Classes*/
+.EntryRow{
+	margin-bottom: 25px;
+	padding: 10px 5px;
+}
+.NarrowMarginEntryRow{
+	margin-bottom: 5px;
+}
+.RowOdd{
+	
+}
+.RowEven{
+	
+}
+.EntryTitle{
+	font-size: 18px;
+	margin: 0px;
+}
+.EntryExtraInfo{
+	
+}
+.EntryDescription{
+	
+}
+.EntryImageContainer{
+	text-align: center;
+}
+
+.MoreButton{
+	display: inline-block;
+	padding: 5px 10px;
+	margin-left: 5px;
+}
+.EntryIcon{
+	font-size: 26px;
+}
+/* Categories*/
+.CategoryTree{
+	list-style: none;
+	padding-left: 5px;
+	border-left: 1px dotted #ffffff;
+}
+.CategoryTree li a{
+	display:block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Links*/
+
+.LinkHolder{
+	direction: ltr;
+}
+
+/* Testimonials*/
+
+
+/* Calendar*/
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	font-weight: normal;
+}
+
+/* QuickSand */
+
+li.EntryItem {
+    float: right;
+    margin: 0 12px 20px 0;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    width: 240px;
+}
+
+.QuickSandImage img {
+	border-radius: 4px 4px 4px 4px;
+	padding: 10px;
+}
+
+/* Products */
+.ProductArea{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.ProductImage{
+	min-height: 160px;
+	padding: 3px;
+}
+.ProductImage div{
+	min-height: 154px !important;
+	line-height: 154px;
+	vertical-align: middle;
+}
+.ShadowDiv{
+	text-align: center;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.ShadowDiv img{
+	vertical-align: top !important;
+}
+
+.DetailsBtn1{
+	display: block;
+	width: 100px;
+	line-height: 30px;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.DetailsBtn1 span{
+	display: block;
+}
+.PopUpTitle{
+	position:relative;
+	padding: 0px;
+	overflow: hidden;
+	min-height: 135px;
+}
+.PopUpTitle h1 {
+	position: absolute;
+	top: 160px;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	left:0;
+	right:0;
+}
+.PopUpTitle h1 a{
+	display: block;
+	overflow: hidden;
+	padding: 5px;
+}
+
+/* Downloads*/
+.FileInfo{
+	padding-top: 10px;
+	direction: ltr;
+	font-size: 16px;
+}
+.FileDownload a{
+	display: inline-block;
+	padding: 10px;
+	width: 50%;
+	margin-top: 10px;
+}
+.FileDownload a i{
+	font-size: 18px;
+}
+
+/* Details Page */
+.PageTitle{
+	font-size: 22px;
+}
+
+.RoundedDiv {
+	border-radius: 5px;
+}
+
+.DetailsImage1 {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.DetailsImage2 {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.DetailsImage3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.DetailsImage4 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+
+.HrBorder{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+#recaptcha_widget_div{
+	direction: ltr;
+}
+#frmCareer a{
+	text-decoration: underline !important;
+}
+
+.fb-comments, .fb-comments * {
+    width:100% !important;
+}
+
+@media (max-width: 979px){
+	.PostHeader .navbar-inverse .nav li.dropdown > a:after {
+		float: left;
+		margin-left: 0;
+		border-right-color: #cccccc !important;
+		border-width: 5px 5px 5px 0	!important;
+	}
+    .PostHeader .navbar-inverse .nav li > a {
+        text-align: right;
+    }
+}
+
+@media (max-width: 768px) {
+	.SocialDiv{
+		margin-bottom: 10px;
+	}
+}
